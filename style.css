@@ -474,3 +474,55 @@ footer {
 .trajetoria p:last-child {
     margin-bottom: 0;
 }
+/* Hero da página de massagem */
+.hero-massagem {
+    background: url('imagens/massagem.jpg') center/cover no-repeat;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+/* Conteúdo da página de serviço */
+.conteudo-servico {
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 20px;
+    text-align: left;
+}
+
+.conteudo-servico h2 {
+    text-align: center;
+    color: #8e44ad;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.conteudo-servico h3 {
+    margin-top: 30px;
+    color: #732d91;
+}
+
+.conteudo-servico p, 
+.conteudo-servico li {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #444;
+}
+
+.conteudo-servico ul {
+    margin-left: 20px;
+}
+
+.preco {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.preco h3 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
